@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<head> 
+<script type="text/javascript"> 
+
+document.write("wykonał: Jakub Zawisza mój numer w dzienniku 30 czyli mam układ [(30) mod4=2] uklad 2".fontsize(20).fontcolor("red")+"<br>");
+function WinOpen_grafika1() 
+        {
+       window.open("grafika1.html","grafika1","toolbar=no,directories=no,menubar=no,height=380,width=160,top=0,left=250");
+        }
+        function WinOpen_grafika2() 
+        {
+       window.open("grafika2.html","grafika2","toolbar=no,directories=no,menubar=no,height=380,width=160,top=0,left=1500");
+        }
+
+        function WinOpen_kot3() 
+        {
+       window.open("kot3.png","grafika3","toolbar=no,directories=no,menubar=no,height=380,width=160,top=1000,left=250");
+        }
+
+        function WinOpen_kot4() 
+        {
+       window.open("kot4.png","grafika4","toolbar=no,directories=no,menubar=no,height=380,width=160,top=1000,left=1500");
+        }
+        function okno_zamknij() 
+        {
+        window.close()
+        }
+
+
+</script>
+</head>
+
+<body>
+    <input type="button" name="grafika1" value="grafika1" onclick="WinOpen_grafika1(' ')">
+    <input type="button" name="grafika2" value="grafika2" onclick="WinOpen_grafika2(' ')">
+    <input type="button" name="grafika3" value="grafika3" onclick="WinOpen_kot3(' ')">
+    <input type="button" name="grafika4" value="grafika4" onclick="WinOpen_kot4(' ')">
+    <input type="button" name="okno_zamknij" value="zamknij_okno" onclick="okno_zamknij(' ')">
+</body>
+</html>
