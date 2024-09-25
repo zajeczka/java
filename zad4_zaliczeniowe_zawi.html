@@ -3,6 +3,14 @@
  <title> Zawisza 2P</title>
     <script language="JavaScript">
         document.write("Szkielet zaliczeniowy JavaScript Jakub Zawisza klasa 2P".fontcolor("red").fontsize("5")+"<br><br><br>");
+         function WinOpen_z1() 
+        {
+       window.open("zad1_zawi.html","okienko_z1","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+        }
+              function WinOpen_z2() 
+        {
+       window.open("zad2_zawi.html","okienko_z2","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+        }
         function WinOpen_z3() 
         {
        window.open("zad3_zawi.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
@@ -43,6 +51,8 @@
         </head>
        <body>
         <form>
+        <input type="button_z1" name="zadanie1" value="zadanie1-zawisza" onclick="WinOpen_z1(' ')">
+        <input type="button_z2" name="zadanie2" value="zadanie2-zawisza" onclick="WinOpen_z2(' ')">
         <input type="button_z3" name="zadanie3" value="zadanie3-zawisza" onclick="WinOpen_z3(' ')">
         <input type="button_z4" name="zadanie4" value="zadanie4-zawisza" onclick="WinOpen_z4(' ')">
         <input type="button_z5" name="zadanie5" value="zadanie5-zawisza" onclick="WinOpen_z5(' ')">
